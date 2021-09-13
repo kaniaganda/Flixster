@@ -1,0 +1,7 @@
+com/example/flixster/models/Movie.java
+ com.example.flixster.models.Movie
+com/example/flixster/BuildConfig.java
+ com.example.flixster.BuildConfig
+com/example/flixster/MainActivity.java
+ com.example.flixster.MainActivity
+ com.example.flixster.MainActivity$1
