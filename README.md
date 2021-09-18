@@ -23,7 +23,7 @@ TO-DO: week 09/20
 - [ ] (2pts) For popular movies (i.e. a movie voted for more than 5 stars), the full backdrop image is displayed. Otherwise, a poster image, the movie title, and overview is listed. Use Heterogenous RecyclerViews and use different ViewHolder layout files for popular movies and less popular ones.
 
 ### App Walkthough GIF
-<img src="walkthrough.gif" width=250><br>
+<img src="walkthrough.gif" width=500><br>
 
 ### Notes
 The most challenging aspect of the project was trying to understand all the different new functions that I encountered. I also learned a lot about the structure of an Android project.
