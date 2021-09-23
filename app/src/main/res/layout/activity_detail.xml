@@ -22,6 +22,7 @@
         android:paddingTop="5dp"
         android:paddingRight="10dp"
         android:paddingBottom="1dp"
+        android:transitionName="tvTitleTransition"
         android:text="TextView"
         android:textSize="30sp"
         android:textColor="@color/white"
@@ -48,6 +49,7 @@
         android:paddingTop="5dp"
         android:paddingRight="10dp"
         android:paddingBottom="5dp"
+        android:transitionName="tvOverviewTransition"
         android:textColor="@color/off_white"
         android:text="Shang-Chi must confront the past he thought he left behind when he is drawn into the web of the mysterious Ten Rings organization." />
 
