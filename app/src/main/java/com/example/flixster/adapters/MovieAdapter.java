@@ -100,6 +100,7 @@ public class MovieAdapter extends RecyclerView.Adapter<MovieAdapter.ViewHolder> 
                     Intent i = new Intent(context, DetailActivity.class);
                     i.putExtra("movie", Parcels.wrap(movie));
                     // Pass data object in the bundle and populate details activity.
+                    // Shared element transition
                     Pair<View, String> p1 = Pair.create(tvTitle, "tvTitleTransition");
                     // Pair<View, String> p2 = Pair.create(tvOverview, "tvOverviewTransition");  -- too much movement to add
                     ActivityOptionsCompat options = ActivityOptionsCompat.
