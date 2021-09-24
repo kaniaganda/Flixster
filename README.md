@@ -26,7 +26,7 @@ Flixster is an app that allows users to browse movies from the [The Movie Databa
 ### Notes
 
 One of the challenges I encountered was how to hide my API keys without continually deleting it. I created a secrets.xml file which I added to my .gitignore. 
-However, the secrets.xml file is still being pushed. I will need to figure out a way to fix this issue.
+However, the secrets.xml file is still being pushed. I am currently working on hiding it through another method, but I am having trouble calling the hidden string in other parts of the repository.
 
 ## Open-source libraries used
 - [Android Async HTTP](https://github.com/codepath/CPAsyncHttpClient) - Simple asynchronous HTTP requests with JSON parsing
