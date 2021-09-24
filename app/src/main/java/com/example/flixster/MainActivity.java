@@ -24,7 +24,7 @@ import okhttp3.Headers;
 
 public class MainActivity extends AppCompatActivity {
 
-    public static final String NOW_PLAYING_URL = "https://api.themoviedb.org/3/movie/now_playing?api_key="; // + BuildConfig.MOVIE_DB_KEY;
+    public static final String NOW_PLAYING_URL = "https://api.themoviedb.org/3/movie/now_playing?api_key=" + BuildConfig.MOVIE_DB_KEY;
     public static final String TAG = "MainActivity";
 
     List<Movie> movies;
