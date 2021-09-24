@@ -19,8 +19,8 @@ android {
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
 
-        buildConfigField("String", "CONSUMER_KEY", apikeyProperties['CONSUMER_KEY'])
-        buildConfigField("String", "CONSUMER_SECRET", apikeyProperties['CONSUMER_SECRET'])
+        buildConfigField("String", "MOVIE_DB_KEY", apikeyProperties['MOVIE_DB_KEY'])
+        buildConfigField("String", "YOUTUBE_KEY", apikeyProperties['YOUTUBE_KEY'])
     }
 
     buildTypes {
